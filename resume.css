@@ -1,0 +1,95 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.bg {
+    background: url(background.jpg) no-repeat center center;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.whiteb {
+    background-color: white;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    opacity: 0.65;
+    border-style: groove;
+    border-radius: 20px;
+    overflow: scroll;
+}
+
+.header {
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: 15px;
+}
+
+.myname {
+    font-size: 44px;
+    font-weight: bolder;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.posi {
+    font-style: italic;
+}
+ul {
+    margin-top: 2px;
+    text-indent: 1px;
+    margin-bottom: 0px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom:5px;
+    margin-left: -15px;
+}
+
+.info {
+    margin-left: 10px; 
+    text-indent: 10px; 
+}
+
+.detail {
+    border-top: 0px;
+}
+
+.experience {
+    margin-bottom: 10px;
+}
+
+.leadership {
+    margin-bottom: 10px;
+}
+
+
+.button {
+    position: absolute;
+    top: 180px;
+    text-align: center;
+    font-family: Monospace;
+    color: white;
+    font-size: 30px;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5px;
+    left: 10%;
+    top: 5%;
+    border-style: solid;
+    border-color: white;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: white;
+    color: black;
+}

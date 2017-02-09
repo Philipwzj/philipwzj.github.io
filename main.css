@@ -1,0 +1,88 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main_bg {
+    background: url(background.jpg) no-repeat center center;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+
+img {
+    position: absolute;
+    vertical-align: middle;
+    top: 10%;
+    left: 8%;
+    border: 5px solid #ddd;
+    border-radius: 50%;
+    max-height: 80%;
+}
+
+.right_info {
+    position: relative;
+    left: 22%;
+    top: 15%;
+    text-align: center;
+    font-family: Monospace;
+    color: white;
+    font-size: 30px;
+}
+
+.hello {
+    font-size: 70px;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.check_out {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.box1 {
+    position: relative;
+    top: 60px;
+    text-align: center;
+    font-family: Monospace;
+    color: white;
+    font-size: 50px;
+    box-sizing: border-box;
+    padding: 15px;
+    border-style: solid;
+    border-color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.box2 {
+    position: relative;
+    top: 60px;
+    text-align: center;
+    font-family: Monospace;
+    color: white;
+    font-size: 50px;
+    box-sizing: border-box;
+    padding: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-style: solid;
+    border-color: white;
+    text-decoration: none;
+}
+
+.box1:hover {
+    background: white;
+    color: black;
+}
+
+.box2:hover {
+    background: white;
+    color: black;
+}
+
